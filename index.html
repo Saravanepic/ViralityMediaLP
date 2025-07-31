@@ -645,5 +645,24 @@
         duration: 1200,
       });
     </script>
+
+    <!--  -->
+    <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+        alert("Developer (Saravan) has disabled inspect");
+      });
+    </script>
+    <script>
+      document.addEventListener("keydown", function (e) {
+        if (
+          e.ctrlKey &&
+          (e.key === "u" || e.key === "U" || e.keyCode === 123)
+        ) {
+          e.preventDefault();
+          alert("View source disabled");
+        }
+      });
+    </script>
   </body>
 </html>
