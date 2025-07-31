@@ -106,6 +106,9 @@ body,
 .color-green{
     color:#207F48;
 }
+.color-blue{
+    color: #4B777C;
+}
 .color-red{
     color: #D53C5E;
 }
@@ -153,6 +156,10 @@ body,
     background-color: rgba(187, 232, 237, 0.3);
 }
 
+.letter-spacing-negative-4{
+    letter-spacing: -0.64px!important;
+}
+
 .py-40{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -161,6 +168,7 @@ body,
     padding-top: 60px;
     padding-bottom: 60px;   
 }
+
 .pt-80{
     padding-top: 80px;
 }
@@ -218,7 +226,7 @@ li{
     background: #BBE8ED;
     border-radius: 12px;
     justify-content: space-between;
-    padding: 26.5px 78px;
+    padding: 28.5px 76px;
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
@@ -227,12 +235,32 @@ li{
     display: inline;
     transition: all 0.3s ease;
     border: 2px solid #BBE8ED;
+    letter-spacing: -0.96px !important;
 }
 .blue_button:hover{
     background: transparent;
     color: #141718;
     text-decoration: none;
 }
+
+.blue_button_light {
+    background: rgba(187, 232, 237, 0.4);
+    text-decoration: none;
+    border: 1px solid rgba(187, 232, 237, 0.4);
+    border-radius: 12px;
+    padding: 8px 48px;
+    color: rgba(20, 23, 24, 1);
+    letter-spacing: -0.64px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 24px;
+}
+.blue_button_light:hover{
+    text-decoration: none;
+    color: rgba(20, 23, 24, 1);
+}
+
 
 .show_button_menu,
 .show_button_results,
@@ -272,14 +300,14 @@ body{
     justify-content: flex-start;
     /* gap: 80px; */
     gap: 0;
-    padding: 20px 0 0 0;
+    padding:0 0 80px  0;
 }
 
 .usp_points li {
     display: flex;
     position: relative;
     align-items: center;
-    gap: 2px;
+    gap: 10px;
     margin: 0 0 4px;
 }
 .usp_points li:last-childP{
@@ -305,6 +333,9 @@ body{
     gap: 32px;
 }
 @media all and (min-width:1200px){
+    .blue_button{
+        min-width: 440px;
+    }
     .container{
         min-width: 1360px;
     }
@@ -350,6 +381,10 @@ body{
 
 .comparison{
     min-height: 300px;
+}
+.tyson-block{
+    position: relative;
+    margin-top: -180px;
 }
 .lion-img{
     max-width: 830px;
