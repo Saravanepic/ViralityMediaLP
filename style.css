@@ -448,9 +448,9 @@ body{
     bottom: -20px;
 }
 /* Tabs */
-.custom_tabs {
+/* .custom_tabs {
     margin-top: 100px;
-}
+} */
 
 .custom_tabs .nav-tabs {
     justify-content: center;
@@ -519,6 +519,15 @@ img.logo-menu {
 
 /* Responsive */
 @media all and  (max-width:767px){
+    svg.comparison-svg {
+        max-width: 350px;
+        height: auto;
+    }
+    .tyson-block {
+        position: relative;
+        margin-top: -80px;
+        padding-bottom: 50px;
+    }
     
     .blue_button{
         padding: 18px;
@@ -697,10 +706,6 @@ img.logo-menu {
         margin-top: 20px;
     }
     .show_button {
-        /* padding: 8px 30px;
-        font-size: 9.64px; */
-        line-height: 100%;
-        font-weight: 400;
         min-height: 30px;
     }
     .website-img,
