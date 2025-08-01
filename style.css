@@ -516,9 +516,20 @@ img.logo-menu {
     height: fit-content;
 }
 
-
+.show_mobile{
+    display: none;
+}
+.show_desktop{
+    display: block;
+}
 /* Responsive */
 @media all and  (max-width:767px){
+    .show_mobile{
+        display: block;
+    }
+    .show_desktop{
+        display: none;
+    }
     svg.comparison-svg {
         max-width: 350px;
         height: auto;
@@ -674,6 +685,9 @@ img.logo-menu {
     .custom_tabs .tab-content{
         min-height: 20vh;
     }
+    .money_wrap_container{
+        padding: 0!important;
+    }
     .money_wrap{
         grid-template-columns: 1fr;
     }
@@ -685,6 +699,14 @@ img.logo-menu {
         display: grid;
         grid-template-columns: auto auto;
         gap: 0 24px;
+        padding: 0 15px;
+    }
+    .money_col:nth-child(even) {
+        background: white;
+        padding: 20px 15px;
+    }
+    .money_col:nth-child(even) img {
+        order: 2;
     }
     
     .money_col p {
