@@ -721,8 +721,8 @@ img.logo-menu {
         border-radius: 10px;
     }
     .custom_tabs .tab-content div#nav-website img {
-        padding: 24px 16px;
-        border-radius: 10px;
+        padding:0;
+        border-radius: 0;
     }
     .show_hide_btn_wrapper{
         margin-top: 20px;
