@@ -833,6 +833,10 @@ img.logo-menu {
     .bonus_wrapper_row{
         gap: 9px;
     }
+    .bonus_row{
+        align-items: flex-start;
+        justify-content: space-between;
+    }
     /* .bonus_row {
         display: grid!important;
         grid-template-columns: 1fr 1fr 1fr;
