@@ -92,6 +92,10 @@ body,
     font-size: 60px;
     line-height: 66px;
 }
+.fs-62{
+    font-size: 62px;
+    line-height: 68px;
+}
 .fs-64{
     font-size: 64px;
     line-height: 70px;
@@ -99,6 +103,10 @@ body,
 .fs-68{
     font-size: 68px;
     line-height: 74px;
+}
+.fs-120{
+    font-size: 120px;
+    line-height: 126px;
 }
 /* .lh-64{
     line-height: 64px;
@@ -516,6 +524,53 @@ img.logo-menu {
     height: fit-content;
 }
 
+/*  */
+.bonus_row_wrapper{
+    background-image: url(./images/others/white_bg.png);
+    background-color: #141718;
+    background-size: contain;
+}
+.bonus_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    padding: 50px 0;
+    text-align: center;
+}
+.bonus_point {
+    min-width: 253px;
+}
+
+
+/*  */
+
+.bonus_wrapper_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    height: 100%;
+}
+
+.bonus_wrapper_col_img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 55px;
+    text-align: center;
+    background-image: url(./images/others/worth.png);
+}
+
+.bonus_wrapper_col {
+    height: 100%;
+    display: inline-block;
+    min-height: 100%;
+}
+
+
+
+
 .show_mobile{
     display: none;
 }
@@ -674,6 +729,10 @@ img.logo-menu {
         font-size: 38px;
         line-height: 44px;  
     }
+    .sm-fs-58{
+        font-size: 58px;
+        line-height: 64px;  
+    }
     .sm-text-left{
         text-align: left!important;
     }
@@ -759,6 +818,37 @@ img.logo-menu {
     }
     .footer_logo{
         max-width: 250px!important;
+    }
+    .bonus_row_wrapper {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .money_wrap_container_wrapper{
+        padding-bottom: 0!important;
+    }
+    .bonus_wrapper_row{
+        gap: 9px;
+    }
+    .bonus_row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+        padding: 20px 0;
+    }
+
+    .bonus_point {
+        min-width: 100%;
+    }
+    .bonus_point br{
+        display: none;
+    }
+    .bonus_wrapper_col_img {
+        padding: 25px;
+    }
+    .py-sm-20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
   
 }
