@@ -834,11 +834,13 @@ img.logo-menu {
         display: grid!important;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 8px;
-        padding: 20px 0;
+        padding: 50px 0 30px 0;
+        overflow: hidden;
     }
 
     .bonus_point {
         min-width: 100%;
+        min-width: 70px;
     }
     .bonus_point br{
         display: none;
