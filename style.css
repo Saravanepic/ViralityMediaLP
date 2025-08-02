@@ -537,10 +537,11 @@ img.logo-menu {
     gap: 17px;
     padding: 50px 0;
     text-align: center;
+    flex-wrap: nowrap;
 }
 @media all and (min-width:1200px){
     .bonus_point {
-    min-width: 253px;
+      min-width: 253px;
     }
 
 }
@@ -832,16 +833,17 @@ img.logo-menu {
     .bonus_wrapper_row{
         gap: 9px;
     }
-    .bonus_row {
+    /* .bonus_row {
         display: grid!important;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 8px;
         padding: 50px 0 30px 0;
         overflow: hidden;
-    }
+    } */
 
     .bonus_point {
-        min-width: 100%;
+        min-width: 30%;
+        max-width: 30%;
         min-height: 70px;
     }
     .bonus_point br{
