@@ -831,7 +831,7 @@ img.logo-menu {
         gap: 9px;
     }
     .bonus_row {
-        display: grid;
+        display: grid!important;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 8px;
         padding: 20px 0;
