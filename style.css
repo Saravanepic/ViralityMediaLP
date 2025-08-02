@@ -840,7 +840,7 @@ img.logo-menu {
 
     .bonus_point {
         min-width: 100%;
-        min-width: 70px;
+        min-height: 70px;
     }
     .bonus_point br{
         display: none;
