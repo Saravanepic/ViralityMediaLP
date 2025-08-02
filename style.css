@@ -538,10 +538,12 @@ img.logo-menu {
     padding: 50px 0;
     text-align: center;
 }
-.bonus_point {
+@media all and (min-width:1200px){
+    .bonus_point {
     min-width: 253px;
-}
+    }
 
+}
 
 /*  */
 
